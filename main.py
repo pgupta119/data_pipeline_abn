@@ -34,10 +34,11 @@ def main():
     # Process data
     logger.info("Calculating collateral value")
     collateral_status_df = calculate_collateral_value(clients_df, collaterals_df, stocks_df)
+    df = spark.createDataFrame(collateral_status_df)
 
     # Save data
     logger.info(f"Saving results to {output_path}")
-    save_as_parquet(collateral_status_df, output_path)
+    save_as_parquet(df, output_path)
 
     # Stop Spark session
     spark.stop()
