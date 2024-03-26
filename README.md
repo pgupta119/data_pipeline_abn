@@ -52,7 +52,7 @@ Ensure you've got the following tools and environments set up:
 ### 🔧 Docker Installation & Execution
 
 1. **Change the directory to Dockerfile**:
-2. **Pull apache/spark **:
+2. **Pull apache/spark**:
 
    ```bash
     docker pull apache/spark 
@@ -64,8 +64,11 @@ Ensure you've got the following tools and environments set up:
    ```
 4. **Run the docker image**:
 
+
    ```bash
-    docker run --name my-spark-job -v data_pipeline_abn/data:/app/data data_pipeline_abn
+   # mounr the data from data folder to docker container so use the your path
+   docker run --name my-spark-job -v add_your_directory/data_pipeline_abn/data:/app/data data_pipeline_abn
+
 
 
 
