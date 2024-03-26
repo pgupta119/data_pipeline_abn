@@ -3,7 +3,7 @@
 
 # Ignore virtual environment directories
 venv/
-data_pipeline/datapipeline/
+datapipeline/
 # Byte-compiled Python files
 __pycache__/
 
