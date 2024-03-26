@@ -31,20 +31,20 @@ Ensure you've got the following tools and environments set up:
 2. **Set up and activate your virtual environment**:
 
    ```bash
-   Python3 -m venv data_pipeline_abn 
+   python3 -m venv data_pipeline_abn 
    source data_pipeline_abn/bin/activate
    ```
 
 3. **Install necessary packages**:
 
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 4. **Execute the main script**:
 
    ```bash
-   python main.py
+   python3 main.py
    ```
 
    - **Output:** Files will be saved to the `data/output/` directory.
