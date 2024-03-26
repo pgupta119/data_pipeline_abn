@@ -1,0 +1,42 @@
+[
+    {
+        "date": "2024-02-25",
+        "stocks": [
+            {"symbol": "AAPL", "price": 150.5},
+            {"symbol": "MSFT", "price": 250.75},
+            {"symbol": "GOOGL", "price": 2750}
+        ]
+    },
+    {
+        "date": "2024-02-26",
+        "stocks": [
+            {"symbol": "AAPL", "price": 152.0},
+            {"symbol": "MSFT", "price": 255.0},
+            {"symbol": "GOOGL", "price": 2775}
+        ]
+    },
+    {
+        "date": "2024-02-27",
+        "stocks": [
+            {"symbol": "AAPL", "price": 148.0},
+            {"symbol": "MSFT", "price": 245.0},
+            {"symbol": "GOOGL", "price": 2700}
+        ]
+    },
+    {
+        "date": "2024-02-28",
+        "stocks": [
+            {"symbol": "AAPL", "price": 151.0},
+            {"symbol": "MSFT", "price": 250.0},
+            {"symbol": "GOOGL", "price": 2730}
+        ]
+    },
+    {
+        "date": "2024-02-29",
+        "stocks": [
+            {"symbol": "AAPL", "price": 153.5},
+            {"symbol": "MSFT", "price": 260.0},
+            {"symbol": "GOOGL", "price": 2800}
+        ]
+    }
+]
